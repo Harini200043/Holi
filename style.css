@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: poppins, sans-serif;
+
+}
+body{
+    overflow: hidden;
+    background: white;
+    background-size: cover;
+    
+
+    
+}
+
+h3,h2{
+    /* font-size: 36px; */
+    color: white;
+}
+
+.box{
+    border: 8px solid;
+    border-color: pink greenyellow palevioletred violet;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 100px 550px;
+    text-align: center;
+    padding: 20px;
+    background-image: url(./Images/holi.jpeg);
+    background-size: cover;
+}
+.inner{
+    margin-top: 8rem;
+    /* width: 500px; */
+}
+
+
+
+
+video
+{
+    position: absolute;
+    left:00px;
+    bottom: 00px;
+    z-index: -2;
+    height: auto;
+    /* width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(100);
+    /* margin-top: 80px; */
+}
+.hue{
+    color: cyan;
+    font-size: 80px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-top: 20px;
+    animation: hue 5s infinite;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.hue1{
+    color: #ff66ff;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-top: 20px;
+    animation: hue 5s infinite;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+@keyframes hue{
+    0%{
+        -webkit-filter: hue-rotate(0deg);
+    }
+    100%{
+
+        -webkit-filter: hue-rotate(700deg);
+    }
+}
